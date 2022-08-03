@@ -11,6 +11,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    outline: solid 1px red;
 }
 .quickcontact-flex {
     display: flex;
@@ -487,6 +488,7 @@
     background-color:#fff;
     padding-left: 15px;
     box-sizing: border-box;
+    
 }
 .teamhead h2{
     display: flex;
@@ -575,11 +577,13 @@
 }
 .faq-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 .faq-flex .faq-text {
     width: 50%;
     height: auto;
-    outline: solid 1px red;
+    
+    
 }
 .faqhead h2{
     display: flex;
@@ -590,29 +594,178 @@
     font-weight: 600;
     color: #5c768d;
 }
-.faq-flex .faq-text .faq-box-1 h3{
-    display: flex;
+.faq-boxipsum h3{
     padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1f3548;
+    padding-left: 50px;
 }
+.faq-boxipsum p{
+    font-size:15px ;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 70px;
+    padding-left: 50px;
+}
+.faq-boxdolor h3{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1f3548;
+    padding-left: 50px;
+}
+.faq-boxdolor p{
+    font-size:15px ;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+.faq-boxaliqum h3{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1f3548;
+    padding-left: 50px;
+}
+.faq-boxaliqum p{
+     font-size:15px ;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+.faq-boxfeugiat h3{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1f3548;
+}
+.faq-boxfeugiat p{
+    font-size:15px ;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 30px;
+}
+.faq-boxac h3{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1f3548;
+}
+.faq-boxac p{
+    font-size:15px ;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 30px;
+}
+.faq-boxtortor h3{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1f3548;
+}
+.faq-boxtortor p{
+    font-size:15px ;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 30px;
+}
+
 .contact-flex {
     display: flex;
     flex-wrap: wrap;
+    background-color: #2196f3;
 }
-
 .contact-flex .contactboxbig {
     width: 50%;
-    height: 100px;
-    outline: solid 1px red;
+    height:200px;    
 }
+.contact-flex .contactboxbig {
+    margin-right: 15px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 0px 30px  rgb(214 215 216 / 60%);
+    box-sizing: border-box;
+}
+.contact-flex .contactbox {
+    width: 22%; 
+    height: 200px;
+ }
 
 .contact-flex .contactbox {
-    width: 25%;
-    outline: solid 1px red;
-
+    margin-right: 15px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 0px 30px  rgb(214 215 216 / 60%);
+    box-sizing: border-box;
+    
 }
-
-.contact-flex .contactguestbox {
-    height: 100px;
+.contacthead h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #5c768d;
+}
+.contactbox i{
+    font-size: 32px;
+    color: #428bca;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #9eccf4;
+    text-decoration: none;
+    font-weight: 400;
+    
+}
+.contactboxbig i{
+    font-size: 32px;
+    color: #428bca;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #9eccf4;
+    text-decoration: none;
+    
+}
+.contactbox h3{
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.contactboxbig h3{
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.contactboxbig p{
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.contactbox p{
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.contactguestbox {
+    width: 100%;
+    height: 150px;
 }
 
 .footer-flex {
