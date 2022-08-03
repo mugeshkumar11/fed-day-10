@@ -590,7 +590,10 @@
     font-weight: 600;
     color: #5c768d;
 }
-
+.faq-flex .faq-text .faq-box-1 h3{
+    display: flex;
+    padding-top: 20px;
+}
 .contact-flex {
     display: flex;
     flex-wrap: wrap;
